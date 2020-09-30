@@ -11,7 +11,7 @@ class Segment_Update(object):
     """ Class for representing one single mirror update (will be inside of groups in SURs)
     """
     def __init__(self, xmlnode):
-        if xmlnode.attrib['type'] != 'pose': raise NotImplemented("Only Pose updates supported yet")
+#        if xmlnode.attrib['type'] != 'pose': raise NotImplemented("Only Pose updates supported yet")
 
         self.id = int(xmlnode.attrib['id'])
         self.type = xmlnode.attrib['type']
