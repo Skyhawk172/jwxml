@@ -21,4 +21,4 @@ import os.path
 with open(os.path.join(os.path.dirname(__file__), 'VERSION')) as f:
     __version__ = f.read().strip()
 
-warnings.warning("jwxml is deprecated and its use should be phased out. See pysiaf and/or webbpsf instead.", DeprecationWarning)
+warnings.warn("jwxml is deprecated and its use should be phased out. See pysiaf and/or webbpsf instead.", DeprecationWarning)
