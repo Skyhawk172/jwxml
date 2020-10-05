@@ -1,6 +1,11 @@
 jwxml
 =====
 
+**DEPRECATED: This package is obsolete. See PYSIAF (https://pysiaf.readthedocs.io/) instead for XML SIAF parsing code, and WebbPSF (https://webbpsf.readthedocs.io/) for JWST mirror file XML parsing code.**
+
+**jwxml is no longer actively developed and its use should be phased out.**
+
+
 *Note: This is probably mostly useful internally at STScI.*
 
 Miscellaneous XML support helper code related to some JWST configuration files, mostly optics and wavefront sensing related.
